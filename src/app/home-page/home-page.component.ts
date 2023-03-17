@@ -5,7 +5,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { Info } from '../class/info';
 import { ListFolderResult } from '../interface/list-folder';
 import { DropboxService } from '../service/dropbox.service';
-import { JsonDataService } from '../service/jsondata.service';
+import { JsonDataService } from '../service/jsondata.service'; 
 
 @Component({
   selector: 'app-home-page',
