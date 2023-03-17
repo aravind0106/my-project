@@ -67,6 +67,7 @@ export class HomePageComponent implements OnInit, AfterViewInit {
       
       this.ACCESS_TOKEN = environment.apiKey;
       if (this.ACCESS_TOKEN) {
+        console.log(this.ACCESS_TOKEN + 'test')
       this.getImage();
      // this.loadJsonData();
       // this.setAnimationDuration();
