@@ -6,6 +6,7 @@ import { Info } from '../class/info';
 import { ListFolderResult } from '../interface/list-folder';
 import { DropboxService } from '../service/dropbox.service';
 import { JsonDataService } from '../service/jsondata.service'; 
+import { environment } from 'src/environments/environment.prod';
 
 @Component({
   selector: 'app-home-page',
@@ -62,14 +63,15 @@ export class HomePageComponent implements OnInit, AfterViewInit {
   }
 
   fetchToken() {
-    this.http.get<any>('/assets/token.json').subscribe((data) => {
-      this.ACCESS_TOKEN = data['dropbox'];
-      if (data['dropbox']) {
+    // this.http.get<any>('/assets/token.json').subscribe((data) => {
+      
+      this.ACCESS_TOKEN = environment.apiKey;
+      if (this.ACCESS_TOKEN) {
       this.getImage();
      // this.loadJsonData();
       // this.setAnimationDuration();
       }
-    });
+    // });
   }
 
   ngOnInit() {
