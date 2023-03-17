@@ -1,20 +1,4 @@
 [
-  {
-  "id": 1,
-  "message": "(01-03-2023) Submission of Monthly Report and Attendance"
-},
-{
-  "id": 2,
-  "message": "(11-03-2023) Working Day (Thursday Timetable)"
-},
-{
-  "id": 3,
-  "message": "(14-03-2023) Payment of Examination Fee"
-},
-{
-  "id": 4,
-  "message": "(16-03-2023) CAT-II for UG and PG"
-},
 {
   "id": 5,
   "message": "(22-03-2023) Holiday (Telugu New Year)"
@@ -33,7 +17,7 @@
 },
 {
   "id": 9,
-  "message": "(28-03-2023) Mentor Notbook Verification"
+  "message": "(28-03-2023) Mentor Notebook Verification"
 },
 {
   "id": 10,
