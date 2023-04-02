@@ -1,10 +1,50 @@
 [
 {
+  "id": 1,
+  "message": "(03-04-2023) Last Date for Exam Fees Payment without penalty"
+},
+{
+  "id": 2,
+  "message": "(04-04-2023) Mahavir Jayanthi Holiday"
+},
+{
+  "id": 3,
+  "message": "(07-04-2023) Good Friday Holiday"
+},
+{
+  "id": 4,
+  "message": "(12-04-2023) Last Date for Exam Fees Payment with penalty Rs.100"
+},
+{
+  "id": 5,
+  "message": "(14-04-2023) Tamil New Year Holiday"
+},
+{
+  "id": 6,
+  "message": "(19-04-2023) Last Date for Exam Fees Payment with penalty Rs.500"
+},
+{
+  "id": 7,
+  "message": "(20-04-2023) Mentor Notebook Verification"
+},
+{
+  "id": 8,
+  "message": "(21-04-2023) Mentor Parent Meeting"
+},
+{
+  "id": 9,
+  "message": "(22-04-2023) Ramzan Holiday"
+},
+{
   "id": 10,
-  "message": "(29-03-2023) Last Date for Exam Fees Payment without penalty"
+  "message": "(24-04-2023) Model Exam for UG & PG"
 },
 {
   "id": 11,
-  "message": "(31-03-2023) Class Committee Meeting Report Submission"
+  "message": "(26-04-2023) Conduct of BOS"
+},
+{
+  "id": 12,
+  "message": "(28-04-2023) Class Committee Meeting Report Submission"
 }
 ]
