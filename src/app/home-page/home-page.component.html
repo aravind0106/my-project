@@ -127,11 +127,11 @@
 
 <div>
   <div class="featured">
-    <h1>CALENDER</h1>
+    <h1>CALENDAR</h1>
   </div>
   <div class="featuredMemes" style="justify-content: center;">
     <div>
-      <img src="/assets/calendar/calendar.jpg" width="400" alt="vels university">
+      <img src="/assets/calendar/calendar.jpg" width="380" alt="vels university">
     </div>
 </div>
 </div>
@@ -306,11 +306,26 @@
   <div class="featured">
     <h1>PHOTOGRAPHY</h1>
   </div>
-  <div class="featuredMemes" style="justify-content: center;">
-      <div>
-        <img src="/assets/contest/contest.png" width="300" alt="vels university">
-      </div>
-  </div>
+		<!-- autoplay -->
+    <br/>
+		<div class="demo">
+			<carousel
+				[autoplay]="true"
+				[loop]="true"
+        [dots]="true">
+        <div class="carousel-cell" *ngFor="let img of imagesForSlider">
+          <div>
+            <img [src]="img.path" alt="vels university trolls"/>
+        </div>
+          <div class="credits">
+            <mat-chip>
+              <b>Pic Courtesy: {{img.name}}</b>
+            </mat-chip>
+          </div>
+        </div>
+			</carousel>
+		</div>
+    <br/>
 </div>
 
 <div class="googleMap">

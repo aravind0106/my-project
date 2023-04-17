@@ -170,3 +170,11 @@
     align-items: center;
     white-space: break-spaces;
 }
+
+.credits {
+    position: absolute;
+    top: 171px;
+    transform: scale(0.4);
+    -webkit-transform-origin-x: left;
+    margin-left: 5px;
+}

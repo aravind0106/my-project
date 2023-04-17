@@ -37,6 +37,37 @@ export class HomePageComponent implements OnInit, AfterViewInit {
   infoMessage!: string;
   isSaving: boolean = false;
 
+  imagesForSlider = [
+    {path: '/assets/contest/puni.jpg',
+     name: 'PUNITHAN'},
+    {path: '/assets/contest/puni2.jpg',
+    name: 'PUNITHAN'},
+    {path: '/assets/contest/puni3.jpg',
+    name: 'PUNITHAN'},
+    {path: '/assets/contest/rethi.jpg',
+    name: 'RETHJO'},
+    {path: '/assets/contest/rethi2.jpg',
+    name: 'RETHJO'},
+    {path: '/assets/contest/Sanjeet.jpg',
+    name: 'SANJEET'},
+    {path: '/assets/contest/Urshita.jpg',
+    name: 'URSHITHA'},
+    {path: '/assets/contest/Dhanush.jpg',
+    name: 'DHANUSH'},
+    {path: '/assets/contest/jaga.jpg',
+    name: 'JAGATHEESWARAN'},
+    {path: '/assets/contest/mohan.jpg',
+    name: 'MOHAN'},
+    {path: '/assets/contest/mohan2.jpg',
+    name: 'MOHAN'},
+    {path: '/assets/contest/mohan3.jpg',
+    name: 'MOHAN'},
+    {path: '/assets/contest/muthu.jpg',
+    name: 'MUTHU'},
+    {path: '/assets/contest/muthu2.jpg',
+    name: 'MUTHU'}
+];
+
   constructor(private http: HttpClient,
     private dropboxService: DropboxService,
     private jsonDataServie: JsonDataService,
