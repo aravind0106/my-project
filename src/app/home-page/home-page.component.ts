@@ -65,7 +65,9 @@ export class HomePageComponent implements OnInit, AfterViewInit {
     {path: '/assets/contest/muthu.jpg',
     name: 'MUTHU'},
     {path: '/assets/contest/muthu2.jpg',
-    name: 'MUTHU'}
+    name: 'MUTHU'},
+    {path: '/assets/contest/Pradeep.jpg',
+    name: 'PRADEEP'},
 ];
 
   constructor(private http: HttpClient,
