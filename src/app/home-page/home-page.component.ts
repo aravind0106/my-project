@@ -16,9 +16,6 @@ import { environment } from 'src/environments/environment.prod';
 export class HomePageComponent implements OnInit, AfterViewInit {
   private readonly APP_KEY = '';
   private readonly REDIRECT_URI = 'https://velsuniversitytrolls.in/semester-result'; // replace with your own redirect URI
-
-  private USERNAME = 'vutadmin@gmail.com';
-  private PASSWORD = 'S3cur3@123';
   private ACCESS_TOKEN: any;
   animationDuration!: number;
   stringLength!: number;
@@ -82,17 +79,6 @@ export class HomePageComponent implements OnInit, AfterViewInit {
   }
   ngAfterViewInit(): void {
       window.removeEventListener("resize", this.setAnimationDuration.bind(this));
-  }
-
-  onSubmit(form: NgForm) {
-
-    if ((form.value.username === this.USERNAME.toLowerCase()) && (form.value.password === this.PASSWORD)) {
-      this.showLoginErr = false;
-      this.displayAdminsMenu = true;
-    } else {
-      this.displayAdminsMenu = false;
-      this.showLoginErr = true;
-    }
   }
 
   fetchToken() {
